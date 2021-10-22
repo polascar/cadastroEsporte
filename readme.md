@@ -14,8 +14,9 @@
 #Caso não haja pagamento, o sistema deve #ter a informação de suspensão de
 #atividade naquela prática esportiva. Caso ele tenha mais de uma prática, 
 #este #controle deve ser por esporte.
-----------
+
 #Passo a passo
+
 #Realizar o download em algum locatório em seu computador.
 #Após, abrir a pasta em uma IDE de preferência,
 #E abrir no terminal e após isto, dar um: 
