@@ -46,7 +46,7 @@ app.post("/salvarCadastro", (req, res) => {
   var telefone = req.body.telefone;
   var endereco = req.body.endereco;
 
-  cadastroModel.create({
+  CadastroSocios.create({
 			nome: nome,
       sobrenome: sobrenome,
       dtNasc: dtNasc,
