@@ -17,6 +17,8 @@
 #atividade naquela prática esportiva. Caso ele tenha mais de uma prática, 
 #este #controle deve ser por esporte.
 
+#Aplicando para uma vaga Júnior!
+
 #Passo a passo
 
 #Realizar o download em algum locatório em seu computador.
