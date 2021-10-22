@@ -1,0 +1,34 @@
+<%- include ('partials/header.ejs') %>
+
+<body>
+  <%- include ('partials/navbar.ejs') %>
+
+  <div class="container">
+    <hr>
+    <h1>Cadastro de Sócios</h1>
+    <hr>
+    <a href="/cadastrar" class="btn btn-dark">Cadastrar</a>
+    <br>
+    <% cadastros.forEach(cadastros => { %>
+      <br>
+      <div class="card">
+        
+        <div class="card-body">
+          <h4> Sócios </h4>
+
+        </div>
+
+        <div class="card-footer">
+          <!-- <%- include ('partials/socio.ejs') %> -->
+          <%= cadastros.nome %>
+
+        </div>
+
+      </div>
+
+      <% }) %>
+
+  </div>
+</body>
+
+<%- include ('partials/footer.ejs') %>

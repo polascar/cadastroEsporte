@@ -1,0 +1,40 @@
+<%- include ('partials/header.ejs') %>
+<body>
+
+  <%- include ('partials/navbar.ejs') %>
+
+  <div class="container">
+    <div class="card" id="formulario-cadastro">
+      <div class="card-header">
+        <h3>Realizar Cadastro</h3>
+
+      </div>
+      <div class="card-body">
+        <form method="POST" action="/salvarCadastro">
+          <label>Nome</label>
+            <input type="text" placeholder="Nome" class="form-control" name="nome">
+            <br><label>Sobrenome</label>
+            <input placeholder="Sobrenome" class="form-control" name="sobrenome">
+            <br>
+            <br><label>Data de Nascimento</label>
+            <input placeholder="data de Nascimento" class="form-control" name="dtNasc">
+            <br>
+            <br><label>Contatos</label>
+            <br><label>Email</label>
+            <input placeholder="Email" class="form-control" name="email">
+            <br>
+            <br><label>Telefone</label>
+            <input placeholder="Telefone" class="form-control" name="telefone">
+            <br>
+            <br><label>Endereço</label>
+            <input placeholder="Endereço" class="form-control" name="endereco">
+            <br>
+            <button class="btn btn-primary">Cadastrar</button>
+  
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+<%- include ('partials/footer.ejs') %>
