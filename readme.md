@@ -1,8 +1,10 @@
 #O Projeto
+
 #A necessidade deste projeto é criar um sistema de cadastro de sócios de um 
 #clube de prática de esportes.
 
 #Necessidade
+
 #No clube existem várias práticas de esportes e é possível que o sócio tenha 
 #acesso a mais de uma prática de esporte, a saber: natação, jiujitsu, karatê, 
 #basquete e futebol. Neste cadastro, além de conter dados básicos ( nome, 
