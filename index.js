@@ -57,6 +57,10 @@ app.post("/salvarCadastro", (req, res) => {
 
 });
 
+app.get("/cadastrarPagamento", (req, res) => {
+	res.render("pagamento");
+});
+
 app.post("/salvarPagamento", (req, res) => {
 
 	var descricaoPagamento = req.body.descricaoPagamento;
