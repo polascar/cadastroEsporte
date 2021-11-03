@@ -31,5 +31,7 @@ npm install #para instalar todas as dependências.
 #Rodar o: 
 npm index.js 
 
+#Caso não consiga importar a tabela, favor criar a tabela 'cadastroesporte' em seu banco de dados de preferência.
+
 #E acessar o localhost na porta 8081 em uma página de browser (internet)
 http://localhost:8081/
