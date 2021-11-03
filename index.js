@@ -24,19 +24,14 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 //rotas
-app.get('/', (req, res) => {
-	cadastroSocios
-		.findAll({
-			raw: true,
-			order: [
-				[ 'id', 'desc' ] //DESC = Decrescente e ASC = Crescente
-			]
-		})
-		.then((cadastros) => {
-			res.render('index', {
-				cadastros: cadastros
-			});
-		});
+app.get('/', async (req, res) => {
+	const cadastros = await cadastroSocios.findAll({
+		raw: true,
+		order: [
+			[ 'id', 'desc' ] //DESC = Decrescente e ASC = Crescente
+		]
+	});
+	res.render(cadastros);
 });
 
 app.get('/cadastrar', (req, res) => {
