@@ -1,17 +1,18 @@
 {
-  "name": "cadastroesporte",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Scarlatt Luz",
-  "license": "ISC",
-  "dependencies": {
-    "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "mysql2": "^2.3.2",
-    "sequelize": "^6.7.0"
-  }
+	"name": "cadastroesporte",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon index.js"
+	},
+	"author": "Scarlatt Luz",
+	"license": "ISC",
+	"dependencies": {
+		"ejs": "^3.1.6",
+		"express": "^4.17.1",
+		"mysql2": "^2.3.2",
+		"sequelize": "^6.7.0"
+	}
 }

@@ -29,7 +29,7 @@ npm install #para instalar todas as dependências.
 
 #Depois do passo acima, importar a tabela em um banco de dados de preferência e
 #Rodar o: 
-npm index.js 
+npm run dev
 
 #Caso não consiga importar a tabela, favor criar a tabela 'cadastroesporte' em seu banco de dados de preferência.
 
