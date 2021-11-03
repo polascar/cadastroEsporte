@@ -18,15 +18,15 @@ Como é um clube, existe uma contribuição mensal para prática dos esportes.
 
 # Passo a passo:
 
-### Realizar o download em algum locatório em seu computador. Após, abrir a pasta em uma IDE de preferência e abrir no terminal e após isto, dar um: 
+#### Realizar o download em algum locatório em seu computador. Após, abrir a pasta em uma IDE de preferência e abrir no terminal e após isto, dar um: 
 
 ```javascript
 npm install
 ```
 
-### Para instalar todas as dependências. Depois do passo acima, importar a tabela em um banco de dados de preferência e rodar o: 
+#### Para instalar todas as dependências. Depois do passo acima, importar a tabela em um banco de dados de preferência e rodar o: 
 
 ```javascript
 npm run dev
 ```
-### O servidor inciará na porta:8081 - acesse <http://localhost:3333>
+#### O servidor inciará na porta:8081 - acesse <http://localhost:3333>
