@@ -1,8 +1,9 @@
 const Sequelize = require('sequelize');
 
-const connection = new Sequelize('cadastroesporte', 'root', 'root',{
-  host: 'localhost',
-  dialect: 'mysql'
+const connection = new Sequelize('cadastroesporte', 'root', 'root', {
+	host: 'localhost',
+	dialect: 'mysql',
+	port: 3307
 });
 
 module.exports = connection;
