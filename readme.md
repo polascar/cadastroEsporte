@@ -29,4 +29,4 @@ npm install
 ```javascript
 npm run dev
 ```
-#### O servidor inciará na porta:8081 - acesse <http://localhost:3333>
+#### O servidor inciará na porta:8081 - acesse <http://localhost:8081>
